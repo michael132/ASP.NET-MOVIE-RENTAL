@@ -199,6 +199,18 @@
     <Compile Include="Migrations\201611210011078_CorrectMembershipTypeIdInCustomerModel.Designer.cs">
       <DependentUpon>201611210011078_CorrectMembershipTypeIdInCustomerModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611210036081_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\201611210036081_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>201611210036081_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611210039546_UpdateExistingMembershipTypeRecords.cs" />
+    <Compile Include="Migrations\201611210039546_UpdateExistingMembershipTypeRecords.Designer.cs">
+      <DependentUpon>201611210039546_UpdateExistingMembershipTypeRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611210053000_AddBirthdayToCustomer.cs" />
+    <Compile Include="Migrations\201611210053000_AddBirthdayToCustomer.Designer.cs">
+      <DependentUpon>201611210053000_AddBirthdayToCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -303,6 +315,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611210011078_CorrectMembershipTypeIdInCustomerModel.resx">
       <DependentUpon>201611210011078_CorrectMembershipTypeIdInCustomerModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611210036081_AddNameToMembershipType.resx">
+      <DependentUpon>201611210036081_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611210039546_UpdateExistingMembershipTypeRecords.resx">
+      <DependentUpon>201611210039546_UpdateExistingMembershipTypeRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611210053000_AddBirthdayToCustomer.resx">
+      <DependentUpon>201611210053000_AddBirthdayToCustomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
